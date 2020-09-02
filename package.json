@@ -1,0 +1,22 @@
+{
+  "name": "foundation-sites-6.6.3-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rosenmatt1/Foundation6.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rosenmatt1/Foundation6/issues"
+  },
+  "homepage": "https://github.com/Rosenmatt1/Foundation6#readme",
+  "dependencies": {
+    "foundation-sites-5": "^5.5.3"
+  }
+}

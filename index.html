@@ -6,7 +6,8 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Foundation for Sites</title>
-  <link rel="stylesheet" href="assets/css/foundation.css">
+  <!-- <link rel="stylesheet" href="assets/css/foundation.css"> -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@5.6.3/dist/css/foundation.min.css" integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" crossorigin="anonymous">
 </head>
 
 <body>
@@ -16,21 +17,34 @@
     Test
   </div> -->
 
-  <div class="grid-x grid-padding-x">
-    <div class="large-4 columns" style="background: lightsalmon"> 
+  <!-- <div class="grid-x grid-padding-x">
+
+    <div class="large-4 medium-4 small-4 columns" style="background: lightsalmon">
       <div class="grid-x grid-padding-x">
-        <div class="medium-4 columns" style="border: 1px solid red"> Bacon </div>
-        <div class="medium-4 columns" style="border: 1px solid green"> Egg  </div>
-        <div class="medium-4 columns" style="border: 1px solid yellow"> Cheese </div>
+        <div class="large-6 medium-6 small-6 columns" style="border: 1px solid red"> Bacon </div>
+        <div class="large-6 medium-6 small-6 columns" style="border: 1px solid green"> Egg </div>
       </div>
     </div>
 
-    <div class="large-4 columns" style="background: blue"> 4 </div>
-    <div class="large-4 columns" style="background: red"> 4 </div>
+    <div class="large-4 medium-4 small-4 columns" style="background: blue"> 4 </div>
+    <div class="large-4 medium-4 small-4  columns" style="background: red"> 4 </div>
+
+
+  </div> -->
+
+  <!-- <div class="grid-x grid-padding-x">
+    <div class="large-4 cell" style="background: lightsalmon"> 4 </div>
+    <div class="large-4 cell" style="background: blue"> 4 </div>
+    <div class="large-4 cell" style="background: red"> 4 </div>
+  </div> -->
+
+  <div class="row">
+    <div class="large-4 medium-4 small-4 columns" style="background: lightsalmon"> </div>
+    <div class="large-4 medium-4 small-4 columns" style="background: blue"> 4 </div>
+    <div class="large-4 medium-4 small-4 columns" style="background: red"> 4 </div>
   </div>
 
-
-<!-- 
+    <!-- 
   <div class="grid-container">
     <div class="grid-x grid-padding-x">
       <div class="large-12 cell">
@@ -178,6 +192,7 @@
           </div>
         </form>
 
+      Small is the default.  A mobile first framework.  
       Adding small-4 made the columns not not break into rows on mobile!
       Adding medium-4 made the columns not break into columns on ipad!
       Example: On Desktop takes up 6 columns and on phone takes up class="large-6 small-4 cell"
@@ -205,8 +220,9 @@
     </div>
   </div> -->
 
-  <script src="assets/js/vendor.js"></script>
-  <script src="assets/js/foundation.js"></script>
+    <script src="assets/js/vendor.js"></script>
+    <!-- <script src="assets/js/foundation.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/foundation-sites@5.6.3/dist/js/foundation.min.js" integrity="sha256-pRF3zifJRA9jXGv++b06qwtSqX1byFQOLjqa2PTEb2o=" crossorigin="anonymous"></script>
 </body>
 
 </html>
